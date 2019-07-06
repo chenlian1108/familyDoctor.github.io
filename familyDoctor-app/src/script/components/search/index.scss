@@ -1,0 +1,83 @@
+
+//  
+.SearchBoxtwo {
+    height: 1rem;
+    margin-top: -1rem;
+} 
+.am-search {
+    position: relative;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    padding: 0 8px;
+    overflow: hidden;
+    background-color: #efeff4;
+    float: left;
+}
+span.SearchLeft {
+    float: left;
+    width: 10%;
+    height: 1rem;
+    background: #efeff4;
+    text-align: center;
+    line-height: 1rem;
+    .iconfont{
+        color:#737373;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+}
+span.SearchRight {
+    float: right;
+    width: 10%;
+    height: 1rem;
+    background: #efeff4;
+    text-align: center;
+    line-height: 1rem;
+    margin-top: -0.2rem;
+    .iconfont{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        color:#737373;
+    }
+}
+
+.am-search-cancel.am-search-cancel-show.am-search-cancel-anim {
+    font-size: 0.35rem;
+    color: #8d8d8d;
+}
+.am-search-cancel {
+    font-size: 0.35rem;
+    color: #8d8d8d;
+}
+.homeBanner {
+    clear: both;
+}
+.search .Searchpage {
+    // width: 95%;
+    position: relative;
+    text-align: left;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    padding: 0 8px;
+    overflow: hidden;
+    background-color: #efeff4;
+    float: left;
+}
+form.am-search.Searchpage {
+    width: 85%;
+}
+
+
+
+
+
+
+
+
+

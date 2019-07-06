@@ -1,0 +1,121 @@
+
+
+
+.am-input-label .iconfont ,i.iconfont.icon.icon-home_my{
+    font-size: 21px;
+    color: #4e4e4e;
+    margin-right: 12px;
+}
+.am-list-item .am-input-label,.am-list-content,.am-list-item .am-list-line .am-list-content {
+    color: #4e4e4e;
+    font-size: 15px;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.am-list-item .am-input-control input {
+    color: #4e4e4e;
+    font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 2px 0;
+    border: 0;
+    background-color: transparent;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.beizhutitle{
+    color: #4e4e4e;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-right: 5px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.am-textarea-control textarea {
+    color: #4e4e4e;
+    font-size: 15px;
+    line-height: 25.5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    overflow: visible;
+    display: block;
+    resize: none;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+// ------------------------
+
+.am-card-body {
+    position: relative;
+    border-top: 1PX solid #ddd;
+    padding: 15px 15px 10px;
+    font-size: 15px;
+    color: #333;
+    min-height: 40px;
+    flex: 1 1;
+}
+.am-card-header-content {
+    flex: 1 1;
+    text-align: left;
+    color: #4e4e4e;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.am-card-header-content img {
+    margin-right: 0.2rem;
+}
+.am-card-header-content i {
+    font-size: 17px;
+    color: #4e4e4e;
+    margin-top: 4px;
+    padding-right: 8px;
+}
+.am-card-header-extra {
+    flex: 1 1;
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+}
+.cardlist {
+    text-align: left;
+    font-size: 14px;
+    color: #4e4e4e;
+    line-height: 32px;
+}
+.am-card-footer {
+    font-size: 14px;
+    color: #888;
+    padding: 5px 15px 8px 0;
+    display: flex;
+}
+.iconfont.icon.icon-shijian,i.iconfont.icon.icon-qi {
+    font-size: 17px;
+}
+i.iconfont.icon.icon-shijian {
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+    

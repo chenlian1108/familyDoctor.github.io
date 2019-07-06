@@ -1,0 +1,135 @@
+
+
+.MyPage{
+  background: #f8f8f8; 
+  padding-bottom: 1rem;
+}
+
+//
+.Mybanner {
+  position: relative;
+  z-index: 100;
+  margin-top: -1.2rem;
+  height: 5.2rem;
+  width: 100%;
+  background: #71b3e7;
+  border-bottom: none;
+  overflow: hidden;
+}
+.Mybannericon {
+  position: relative;
+  width: 90%;
+  text-align: center;
+  margin: 0.5rem auto 0rem;
+  height: 0.6rem;
+}
+i.Mybannerleft.iconfont.icon.icon-icon-icon-er {
+  display: inline-block;
+  font-size: 15px;
+  border: 1px solid red;
+  width: 10px;
+  height: 10px;
+}
+i.iconfont.icon.icon-yingyong,i.iconfont.icon.icon-set {
+  color: #fff;
+  font-size: 0.45rem;
+}
+i.iconfont.icon.icon-yingyong {
+  float: left;
+}
+i.iconfont.icon.icon-set{
+  float: right;
+}
+
+// 
+
+div#photo {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+div#photo img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+a.ohuo {
+  display: inline-block;
+}
+p.Myusername {
+  color: #fff;
+  font-size: 0.3rem;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 0.6rem;
+  margin-top: 0.2rem;
+}
+p.Myuserdismat {
+  color: #c0def5;
+  font-size: 0.3rem;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 0.5rem;
+  overflow: hidden;
+}
+p.Myusertologin {
+  color: #ffffff;
+  font-size: 0.38rem;
+  width: 60%;
+  font-weight: bold;
+  margin: 0rem auto 0rem;
+  line-height: 0.5rem;
+  overflow: hidden;
+}
+p.Myuserdismat input {
+  background: no-repeat;
+  text-align: center;
+  border: none;
+  color: #c0def5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+// 
+.GridDiv {
+  overflow: hidden;
+  color: #4e4e4e;
+}
+.GridDiv .iconfont {
+  font-size: .55rem;
+  display: inline-block;
+  font-weight: normal;
+  width: 0.8rem;
+  height: 0.8rem;
+  color: #71b3e7;
+  // color: #7da9cc;
+  padding: 0.45rem 0.2rem 0rem 0.2rem;
+}
+.GridDiv p {
+  font-size: 0.315rem;
+  color: #666;
+  margin-top: 0.1rem;
+  overflow: hidden;
+}
+
+// // 
+// .Mylistserver {
+//   background: #f8f8f8;
+// }
+// .Myserver {
+//   margin: 0.1rem 0rem;
+// }
+// .am-list-item .am-list-line .am-list-arrow {
+//   width: 0.25rem;
+//   height: 0.25rem;
+// }
+// .am-list-content, .am-list-item .am-list-line .am-list-content {
+//   color: #4e4e4e;
+//   font-size: .3rem;
+// }
+

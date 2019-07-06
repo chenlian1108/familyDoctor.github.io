@@ -1,0 +1,96 @@
+<List>
+
+                    <WingBlank/>
+                    <WhiteSpace />
+                    <InputItem
+                        type="text"
+                        placeholder="111"
+                        clear
+                        onChange={this.checkMobile}
+                        ref="username"
+                    >
+                    <i className={"iconfont icon icon-home_my"}></i>
+                    用户
+                    </InputItem>
+                    
+                    <WingBlank/>
+                    <WhiteSpace />
+                    <InputItem
+                        type="text"
+                        placeholder="111"
+                        clear
+                        onChange={this.checkMobile}
+                        ref="username"
+                    >
+                    <i className={"iconfont icon icon-home_my"}></i>
+                    高压
+                    </InputItem> 
+
+                    <WingBlank/>
+                    <WhiteSpace />
+                    <InputItem
+                        type="text"
+                        placeholder="111"
+                        clear
+                        onChange={this.checkMobile}
+                        ref="username"
+                    >
+                    <i className={"iconfont icon icon-home_my"}></i>
+                    心率
+                    </InputItem> 
+
+                    <WingBlank/>
+                    <WhiteSpace />
+                    <InputItem
+                        type="text"
+                        placeholder="111"
+                        clear
+                        onChange={this.checkMobile}
+                        ref="username"
+                    >
+                    <i className={"iconfont icon icon-home_my"}></i>
+                    体重
+                    </InputItem>
+
+                    <WingBlank/>
+                    <WhiteSpace />
+                    <InputItem
+                        type="text"
+                        placeholder="111"
+                        clear
+                        onChange={this.checkMobile}
+                        ref="username"
+                    >
+                    <i className={"iconfont icon icon-home_my"}></i>
+                    时间
+                    </InputItem>
+
+                    
+                    
+                    <DatePicker
+                        value={this.state.date}
+                        onChange={date => this.setState({ date })}
+                        >
+                        <List.Item arrow="horizontal">Datetime</List.Item>
+                    </DatePicker>
+                    
+
+                    
+
+                    <WingBlank/>
+                    <WhiteSpace />
+                    <InputItem
+                        type="text"
+                        placeholder="111"
+                        clear
+                        onChange={this.checkMobile}
+                        ref="username"
+                    >
+                    <i className={"iconfont icon icon-home_my"}></i>
+                    备注
+                    </InputItem>                  
+                        
+                    <WhiteSpace size="xl" />
+                    <Button type="primary" onClick={this.checkMobile}>马上登录</Button> 
+                    
+                </List>

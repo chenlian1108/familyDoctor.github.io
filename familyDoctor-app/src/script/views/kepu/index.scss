@@ -1,0 +1,60 @@
+
+
+
+
+
+.am-list-item{
+    padding-left: 10px;
+}
+.am-list-item img {
+    width: 55px;
+    height: 55px;
+    vertical-align: middle;
+    border-radius: 5%;
+    margin-top: 0.1rem;
+}
+.am-list-item .am-list-line-multiple {
+    padding: 12.5px 10px 8.5px 0;
+}
+span.keputitle {
+    font-size: 0.33rem;
+    color: #4e4e4e;
+    line-height: 0.45rem;
+}
+
+span.kepuchannel {
+    color: #888;
+    font-size: 0.32rem;
+    float: left;
+    width: 50%;
+    // text-align: right;
+}
+span.kepudate {
+    color: #888;
+    font-size: 0.32rem;
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+.kepuch {
+    margin-top: 0.1rem;
+    width: 100%;
+}
+.am-list-item .am-list-line .am-list-brief {
+    color: #888;
+    font-size: 0.33rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+

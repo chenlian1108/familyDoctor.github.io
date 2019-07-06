@@ -1,0 +1,89 @@
+
+
+footer{
+	position:fixed;
+	width:100%;
+	height:1.1rem;
+	left:0;
+	bottom:0;
+	background: #f7f7f7;
+    display: flex !important;
+    z-index: 100;
+    border-top: 1px solid #108ee9;
+	div{
+		flex:1;
+		height:1.1rem;
+		a{
+			display: block;
+			width:100%;
+			height:100%;
+			display:flex;
+			flex-direction:column;
+			box-sizing:border-box;
+			padding:0.06rem 0;
+			text-align:center;
+			font-family:"微软雅黑";
+			color:#333;
+			position: relative;
+			i{
+			    width: 100%;
+				height: 0.45rem;
+				line-height: 0.45rem;
+				font-size: 0.45rem !important;
+				margin: .07rem 0rem;
+				color: #588cf5;
+			}
+			span{
+				width:100%;
+				height:0.35rem;
+				line-height:0.35rem;
+				font-size:0.26rem;
+			}
+			.hot{
+				position: absolute;
+				top:0;
+				left:60%;
+				display: inline;
+				width:.25rem;
+			}
+		}
+		.nav-active,.router-link-exact-active{
+			color:#0dc441;
+			border-color:#0dc441;
+			i{
+			    width: 100%;
+				height: 0.45rem;
+				line-height: 0.45rem;
+				font-size: 0.45rem !important;
+				margin: .07rem 0rem;
+				color: #0dc441;
+			}
+			.am-badge-text{
+				background-color: #0dc441;
+			}
+		}
+
+	}
+}
+
+.am-badge-text {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: -6px;
+    height: 15px;
+    line-height: 16px;
+    min-width: 8px;
+    border-radius: 12px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 8px;
+	color: #fff;
+	background-color:#588cf5;
+    white-space: nowrap;
+    transform: translateX(-45%);
+    transform-origin: -10% center;
+    z-index: 10;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", SimSun, sans-serif;
+}

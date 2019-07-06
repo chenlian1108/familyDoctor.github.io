@@ -1,0 +1,97 @@
+
+
+@import "common";
+@import "animate.css";
+@import "fonts/iconfont.css";
+@import "antd-mobile.css";
+
+
+$base_font:20px;
+$base_color:#333;
+
+// 全局样式  golbal 
+html,body,#app,.box,#main{
+    width:100vw;
+    height:100vh;
+}
+body{
+    // margin: 0.9rem 0rem;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+div#root {
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.List{
+    
+}
+
+.h2{
+    color:darkmagenta;
+    font-size:40px;
+}
+
+* { touch-action: pan-y; } 
+
+.cssbox{
+    width:200px;
+    height:200px;
+    background: darkgoldenrod;
+    border:1px solid red;  /*no*/
+}
+
+.btn{
+    color:red;
+    border:2px solid blue;
+    background: darkgreen;
+}
+
+// 动画
+.move-in{
+    animation: zoomInDown .9s;
+}
+
+.move-out{
+    animation: zoomOutDown .9s;
+}
+
+// button
+.am-button-primary {
+    color: #fff;
+    background-color: #2e2e2e;
+    border: 1PX solid #108ee9;
+    border-radius: 3px;
+}
+
+// 提示
+.am-modal-title {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
+    color:#5e5e5e;
+    text-align: center;
+}
+.am-modal-button-group-v .am-modal-button {
+    -webkit-touch-callout: none;
+    position: relative;
+    border-top: 1PX solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background: #f8f8f8;
+    color: #5e5e5e;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
